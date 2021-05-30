@@ -6,9 +6,9 @@ import Intro from './Intro'
 import About from './About'
 import Picture from './Picture'
 import SkillSet from './SkillSet'
-import ProjectWeather from './ProjectWeather'
-import Michelin from './Michelin'
-import { red } from '@material-ui/core/colors';
+import ProjectWeather from '../projects/ProjectWeather'
+import Michelin from '../projects/Michelin'
+import PreBoot from '../projects/PreBoot'
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
@@ -47,12 +47,16 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={4}>
 					<Michelin />
 				</Grid>
+				<Grid  align='center'item xs={4}>
+					<PreBoot />
+				</Grid>
 				<Grid className={classes.test} item xs={6}>
 					<Picture />
 				</Grid>
 				<Grid item xs={6}>
 					<About />
 				</Grid>
+
 				<Grid item xs={3}></Grid>
 			</Grid>
 		</div>
