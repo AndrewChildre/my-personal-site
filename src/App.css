@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 .intro-1 {
    color: red;
+   background-color:#65c9ff;
+  
+}
+h1 {
+   margin: 0;
 }
