@@ -24,12 +24,14 @@ const useStyles = makeStyles((theme) => ({
 	},
 	test: {
 		textAlign: 'center',
-		// backgroundColor: 'blue',
-		
-		
-	
-		
+		// backgroundColor: 'blue',	
 	},
+	heading: {
+			fontFamily: 'Caveat',
+		fontSize: 40,
+		color: '#39caf7',
+		
+	}
 }));
 
 export default function CenteredGrid() {
@@ -51,31 +53,34 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12}>
 					<SkillSet />
 				</Grid>
-				<Grid align='center' item xs={4}>
+				<Grid className={classes.heading} align='center' item xs={12}>
+					<h2>Projects</h2>
+				</Grid>
+				<Grid align='center' item xs={12}>
 					<ProjectWeather />
 				</Grid>
-				<Grid align='center' item xs={4}>
+				<Grid align='center' item xs={12}>
 					<Michelin />
 				</Grid>
-				<Grid align='center' item xs={4}>
+				 <Grid align='center' item xs={12}>
 					<PreBoot />
 				</Grid>
-				<Grid item xs={4}>
+				<Grid align='center' item xs={12}>
 					<CardShuffler />
 				</Grid>
-				<Grid item xs={4}>
+				<Grid item xs={12}>
 					<FlashCards />
 				</Grid>
 
-				<Grid item xs={4}>
+				<Grid item xs={12}>
 					<DevRes />
 				</Grid>
-				<Grid className={classes.test} item xs={5}>
+				{/*<Grid className={classes.test} item xs={5}>
 					<Picture />
 				</Grid>
 				<Grid item xs={5}>
 					<About />
-				</Grid>
+				</Grid> */}
 
 				<Grid item xs={3}></Grid>
 			</Grid>

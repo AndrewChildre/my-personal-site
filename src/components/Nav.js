@@ -12,7 +12,7 @@ import Avatar from './Avatar';
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
-		marginBottom: 150,
+		// marginBottom: 150,
 	},
 	title: {
 		flexGrow: 1,
