@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 	style1: {
 		backgroundColor: '#65c9ff',
 		color: '#1f333c',
-		width: '100%',
+		// width: '100%',
 		
 	},
 }));
@@ -33,10 +33,9 @@ export default function ButtonAppBar() {
 	const classes = useStyles();
 
 	return (
-		<div  className={classes.root}>
+		<div className={classes.root}>
 			<AppBar classes={{ root: classes.style1 }} position='fixed'>
 				<Toolbar>
-
 					{/* <IconButton
 						edge='start'
 						className={classes.menuButton}
@@ -45,10 +44,11 @@ export default function ButtonAppBar() {
 						<MenuIcon />
 					</IconButton> */}
 					<Avatar />
-					<Typography align='center' variant='h6' className={classes.title} >
+					<Typography align='center' variant='h6' className={classes.title}>
 						Andrew Childre
 					</Typography>
 					{/* <Button color='inherit'>Login</Button> */}
+				
 					<a href='https://github.com/AndrewChildre'>
 						<img
 							src='https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg'
@@ -77,7 +77,7 @@ export default function ButtonAppBar() {
 					</a>
 				</Toolbar>
 			</AppBar>
-			< Toolbar />
+			<Toolbar />
 		</div>
 	);
 }

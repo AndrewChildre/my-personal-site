@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	heading: {
 			fontFamily: 'Caveat',
-		fontSize: 40,
+		fontSize: 50,
 		color: '#39caf7',
 		
 	}
