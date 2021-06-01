@@ -11,12 +11,12 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 		color: '#1f333c',
 		backgroundColor: '#39caf7',
-		padding: 20,
+		// padding: 20,
 	},
 	paper: {
-		padding: theme.spacing(2),
+		// padding: theme.spacing(2),
 		textAlign: 'center',
-		color: theme.palette.text.secondary,
+		// color: theme.palette.text.secondary,
 	},
 	headings: {
 		fontFamily: 'Caveat',
@@ -34,11 +34,11 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid justify='center' alignItems='center' container spacing={2}>
-				<Grid align='center' item sm={12} md={6}>
-					<img className={classes.border} src={hack1} alt='Weather pic' height='600' width='400' />
+			<Grid justify='center' alignItems='center' container >
+				<Grid align='center' item xs={12} sm={6}>
+					<img className={classes.border} src={hack1} alt='Weather pic' height='436' width='340' />
 				</Grid>
-				<Grid align='center' item sm={12} md={6}>
+				<Grid align='center' item xs={12} sm={6}>
 					<h2 className={classes.headings}>Developer Resources</h2>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting

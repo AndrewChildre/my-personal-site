@@ -15,15 +15,15 @@ import DevRes from '../projects/DevRes'
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
-		margin: 10
+		// margin: 10
 	},
-	paper: {
-		padding: theme.spacing(2),
-		textAlign: 'center',
-		color: theme.palette.text.secondary,
-	},
+	// paper: {
+	// 	padding: theme.spacing(2),
+	// 	textAlign: 'center',
+	// 	color: theme.palette.text.secondary,
+	// },
 	test: {
-		textAlign: 'center',
+		// textAlign: 'center',
 		// backgroundColor: 'blue',	
 	},
 	heading: {
@@ -39,13 +39,13 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid container justify='space-evenly' alignItems='center' spacing={3}>
+			<Grid container justify='space-evenly' alignItems='center' spacing={2}>
 			
 
-				<Grid align='center' item xs={12}>
+				<Grid align='center' item sm={12}>
 					<SkillSet />
 				</Grid>
-					<Grid className={classes.test} item xs={12}>
+					<Grid align='center' item xs={12}>
 					<Intro />
 				</Grid>
 				
@@ -55,25 +55,25 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12}>
 					<ProjectWeather />
 				</Grid>
-				<Grid align='center' item xs={12}>
+				<Grid align='center' item sm={12}>
 					<Michelin />
 				</Grid>
-				 <Grid align='center' item xs={12}>
+				 <Grid align='center' item sm={12}>
 					<PreBoot />
 				</Grid>
-				<Grid align='center' item xs={12}>
+				<Grid align='center' item sm={12}>
 					<CardShuffler />
 				</Grid>
-				<Grid item xs={12}>
+				<Grid item sm={12}>
 					<FlashCards />
 				</Grid>
 
-				<Grid item xs={12}>
+				<Grid item sm={12}>
 					<DevRes />
 				</Grid>
 			
 
-				<Grid item xs={3}></Grid>
+				{/* <Grid item xs={3}></Grid> */}
 			</Grid>
 		</div>
 	);
