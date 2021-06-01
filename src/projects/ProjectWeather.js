@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		backgroundColor: '#39caf7',
+		
 		padding: 20,
 	},
 	paper: {
@@ -18,12 +18,15 @@ const useStyles = makeStyles((theme) => ({
 		textAlign: 'center',
 		color: theme.palette.text.secondary,
 	},
-		headings: {
+	headings: {
 		fontFamily: 'Caveat',
 		fontSize: 40,
-		color: '#1f333c'
-
-	}
+		color: '#1f333c',
+	},
+	border: {
+		border: '5px solid #5199e4',
+		borderRadius: 10
+	},
 }));
 
 export default function CenteredGrid() {
@@ -32,7 +35,7 @@ export default function CenteredGrid() {
 	return (
 		<div className={classes.root}>
 			<Grid justify='center' alignItems='center' container spacing={2}>
-				<Grid  item sm={12} md={6}>
+				<Grid item sm={12} md={6}>
 					<h2 className={classes.headings}>Weather App</h2>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -47,7 +50,13 @@ export default function CenteredGrid() {
 					</p>
 				</Grid>
 				<Grid item sm={12} md={6}>
-					<img src={Weather} alt='Weather pic' height='600' width='auto' />
+					<img
+						className={classes.border}
+						src={Weather}
+						alt='Weather pic'
+						height='600'
+						width='400'
+					/>
 				</Grid>
 			</Grid>
 		</div>

@@ -5,12 +5,12 @@ import Grid from '@material-ui/core/Grid';
 import Weather from './Weather.png';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
-import usmc1 from './usmc1.png';
+import boot1 from './boot1.jpg';
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		backgroundColor: '#39caf7',
+		
 		padding: 20,
 	},
 	paper: {
@@ -22,6 +22,10 @@ const useStyles = makeStyles((theme) => ({
 		fontFamily: 'Caveat',
 		fontSize: 40,
 		color: '#1f333c',
+	},
+	border: {
+		border: '5px solid #5199e4',
+		borderRadius: 10,
 	},
 }));
 
@@ -46,7 +50,7 @@ export default function CenteredGrid() {
 					</p>
 				</Grid>
 				<Grid item sm={12} md={6}>
-					<img src={usmc1} alt='Weather pic' height='600' width='400' />
+					<img className={classes.border} src={boot1} alt='Weather pic' height='600' width='400' />
 				</Grid>
 			</Grid>
 		</div>

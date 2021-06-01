@@ -28,7 +28,7 @@ export default function CenteredGrid() {
 		<div className={classes.root}>
 			
 			<Grid className='skills' container spacing={3}>
-				<Grid item xs={4}>
+				<Grid item sm={12} md={4}>
 					<h1 className={classes.headings}>Frontend</h1>
 					<Paper className={classes.paper}>
 					
@@ -95,7 +95,7 @@ export default function CenteredGrid() {
 						
 					</Paper>
 				</Grid>
-				<Grid item xs={4}>
+				<Grid item sm={12} md={4}>
 					<h1 className={classes.headings}>Backend</h1>
 					<Paper className={classes.paper}>
 								<a href='https://www.python.org' target='_blank' rel='noreferrer'>
@@ -155,7 +155,7 @@ export default function CenteredGrid() {
 						</a>
 					</Paper>
 				</Grid>
-				<Grid item xs={4}>
+				<Grid item sm={12} md={4}>
 					<h1 className={classes.headings}>Other</h1>
 					<Paper className={classes.paper}>
 						<a href='https://git-scm.com/' target='_blank' rel='noreferrer'>

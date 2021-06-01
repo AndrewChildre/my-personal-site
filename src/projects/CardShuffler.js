@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Weather from './Weather.png';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
-import cards from './cards.png';
+import cards1 from './cards1.jpg';
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
@@ -23,6 +23,10 @@ const useStyles = makeStyles((theme) => ({
 		fontSize: 40,
 		color: '#1f333c',
 	},
+	border: {
+		border: '5px solid #5199e4',
+		borderRadius: 10,
+	},
 }));
 
 export default function CenteredGrid() {
@@ -32,7 +36,7 @@ export default function CenteredGrid() {
 		<div className={classes.root}>
 			<Grid justify='center' alignItems='center' container spacing={2}>
 				<Grid item sm={12} md={6}>
-					<img src={cards} alt='Weather pic' height='600' width='400' />
+					<img className={classes.border} src={cards1} alt='Weather pic' height='600' width='410' />
 				</Grid>
 				<Grid item sm={12} md={6}>
 					<h2 className={classes.headings}>Card Shuffler</h2>
