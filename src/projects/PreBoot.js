@@ -11,12 +11,12 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 		color: '#1f333c',
 		
-		padding: 20,
+		// padding: 20,
 	},
 	paper: {
-		padding: theme.spacing(2),
+		// padding: theme.spacing(2),
 		textAlign: 'center',
-		color: theme.palette.text.secondary,
+		// color: theme.palette.text.secondary,
 	},
 	headings: {
 		fontFamily: 'Caveat',
@@ -34,8 +34,8 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid justify='center' alignItems='center' container spacing={2}>
-				<Grid item sm={12} md={6}>
+			<Grid justify='center' alignItems='center' container >
+				<Grid item xs={12} sm={6}>
 					<h2 className={classes.headings}>Bootcamp Study Guide</h2>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -49,8 +49,8 @@ export default function CenteredGrid() {
 						PageMaker including versions of Lorem Ipsum.
 					</p>
 				</Grid>
-				<Grid item sm={12} md={6}>
-					<img className={classes.border} src={boot1} alt='Weather pic' height='600' width='400' />
+				<Grid item xs={12} sm={6}>
+					<img className={classes.border} src={boot1} alt='Weather pic' height='436' width='340' />
 				</Grid>
 			</Grid>
 		</div>

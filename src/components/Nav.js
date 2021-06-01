@@ -22,6 +22,8 @@ const useStyles = makeStyles((theme) => ({
 	style1: {
 		backgroundColor: '#65c9ff',
 		color: '#1f333c',
+		width: '100%',
+		
 	},
 }));
 
@@ -31,7 +33,7 @@ export default function ButtonAppBar() {
 	const classes = useStyles();
 
 	return (
-		<div className={classes.root}>
+		<div  className={classes.root}>
 			<AppBar classes={{ root: classes.style1 }} position='fixed'>
 				<Toolbar>
 
@@ -75,6 +77,7 @@ export default function ButtonAppBar() {
 					</a>
 				</Toolbar>
 			</AppBar>
+			< Toolbar />
 		</div>
 	);
 }

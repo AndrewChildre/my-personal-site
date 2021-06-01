@@ -9,21 +9,26 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 		color: '#1f333c',
 		backgroundColor: '#39caf7',
-		padding: 20,
+		// margin: 20,
+		
 	},
 	paper: {
 		padding: theme.spacing(2),
-		textAlign: 'center',
-		color: theme.palette.text.secondary,
+		// textAlign: 'center',
+		
 	},
 	headings: {
 		fontFamily: 'Caveat',
 		fontSize: 80,
 		color: '#1f333c',
+		
+
+		
 	},
 	border: {
 		border: '5px solid #5199e4',
 		borderRadius: 10,
+		
 	},
 }));
 
@@ -32,8 +37,8 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid justify='center' alignItems='center' container spacing={2}>
-				<Grid item sm={12} md={6}>
+			<Grid  container spacing={2}>
+				<Grid item xs={12} md={6}>
 					<h2 className={classes.headings}>About Me</h2>
 					<p>
 						Hello my friends! I am a dedicated full-stack devloper with an
@@ -43,13 +48,13 @@ export default function CenteredGrid() {
 						traveling, seeing as much of this beautiful planet as possible.
 					</p>
 				</Grid>
-				<Grid item sm={12} md={6}>
+				<Grid item xs={12} md={6}>
 					<img
 						className={classes.border}
 						src={me1}
-						alt='Weather pic'
+						alt='me'
 						height='580'
-						width='400'
+						width='350'
 					/>
 				</Grid>
 			</Grid>
