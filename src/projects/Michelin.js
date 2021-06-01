@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		// backgroundColor: '#39caf7',
+		backgroundColor: '#39caf7',
 		padding: 20,
 	},
 	paper: {
@@ -23,6 +23,10 @@ const useStyles = makeStyles((theme) => ({
 		fontSize: 40,
 		color: '#1f333c',
 	},
+	border: {
+		border: '5px solid #5199e4',
+		borderRadius: 10,
+	},
 }));
 
 export default function CenteredGrid() {
@@ -32,7 +36,7 @@ export default function CenteredGrid() {
 		<div className={classes.root}>
 			<Grid justify='center' alignItems='center' container spacing={2}>
 				<Grid item sm={12} md={6}>
-					<img src={michelin} alt='Weather pic' height='600' width='auto' />
+					<img className={classes.border} src={michelin} alt='Weather pic' height='600' width='350' />
 				</Grid>
 				<Grid item sm={12} md={6}>
 					<h2 className={classes.headings}>Michelin Finder</h2>
