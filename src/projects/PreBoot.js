@@ -26,6 +26,8 @@ const useStyles = makeStyles((theme) => ({
 	border: {
 		border: '5px solid #5199e4',
 		borderRadius: 10,
+		marginTop: 20,
+		marginBottom: 20
 	},
 }));
 
@@ -36,8 +38,8 @@ export default function CenteredGrid() {
 		<div className={classes.root}>
 			<Grid justify='center' alignItems='center' container >
 				<Grid item xs={12} sm={6}>
-					<h2 className={classes.headings}>Bootcamp Study Guide</h2>
-					<p>
+					<h2 className={classes.headings}>Bootcamp<br/>Study Guide</h2>
+					<p style={{margin: 20}}>
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
@@ -50,7 +52,7 @@ export default function CenteredGrid() {
 					</p>
 				</Grid>
 				<Grid item xs={12} sm={6}>
-					<img className={classes.border} src={boot1} alt='Weather pic' height='436' width='340' />
+					<img className={classes.border} src={boot1} alt='Weather pic' height='436' width='320' />
 				</Grid>
 			</Grid>
 		</div>

@@ -13,16 +13,17 @@ const useStyles = makeStyles((theme) => ({
 		// textAlign: 'center',
 		// color: theme.palette.text.secondary,
 		backgroundColor: '#5199e4',
-		padding: 0,
+		padding: 20,
 		margin: 20
 	},
 	headings: {
 		fontFamily: 'Caveat',
-		fontSize: 40,
+		fontSize: 50,
 		color: '#39caf7',
-		marginTop: 80
+		marginTop: 90
 
 	},
+	
 	
 }));
 
@@ -31,16 +32,17 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid container>
-				<Grid item sm={12} md={4}>
+			<Grid container spacing={1}>
+				<Grid item xs={12} sm={4}>
 					<h1 className={classes.headings}>Frontend</h1>
 					<Paper className={classes.paper}>
 						<a href='https://www.w3.org/html/' target='_blank' rel='noreferrer'>
-							<img
+							<img 
 								src='https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'
 								alt='html5'
 								width='70'
 								height='70'
+								
 							/>
 						</a>
 
@@ -93,7 +95,7 @@ export default function CenteredGrid() {
 					</Paper>
 				</Grid>
 
-				<Grid item sm={12} md={4}>
+				<Grid item xs={12} sm={4}>
 					<h1 className={classes.headings}>Backend</h1>
 					<Paper className={classes.paper}>
 						<a href='https://www.python.org' target='_blank' rel='noreferrer'>
@@ -145,7 +147,7 @@ export default function CenteredGrid() {
 						</a>
 					</Paper>
 				</Grid>
-				<Grid item sm={12} md={4}>
+				<Grid item xs={12} sm={4}>
 					<h1 className={classes.headings}>Other</h1>
 					<Paper className={classes.paper}>
 						<a href='https://git-scm.com/' target='_blank' rel='noreferrer'>
