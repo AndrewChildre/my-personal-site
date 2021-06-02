@@ -9,7 +9,7 @@ const About = () => {
 				background in the transportation industry. I have chosen to develop a
 				skill set, that gives me the challenges that I need to excel. Outside of
 				my passion for software development. I love traveling, seeing as much of
-				this beautiful planet as possible.{' '}
+				this beautiful planet as possible.
 			</h3>
 		</div>
 	);

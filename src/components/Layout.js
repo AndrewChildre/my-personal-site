@@ -26,7 +26,7 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid container justify='space-evenly' alignItems='center' spacing={2}>
+			<Grid justify='space-evenly' alignItems='center'>
 				<Grid align='center' item sm={12}>
 					<SkillSet />
 				</Grid>

@@ -37,7 +37,7 @@ export default function CenteredGrid() {
 						src={hack1}
 						alt='Weather pic'
 						height='436'
-						width='340'
+						width='330'
 					/>
 				</Grid>
 				<Grid align='center' item xs={12} sm={6}>
@@ -51,7 +51,10 @@ export default function CenteredGrid() {
 						Heroku.
 					</p>
 					<Link href='https://hack-pro-ac.herokuapp.com/boxes'>
-						<Button variant='outlined' color='disabled'>
+						<Button
+							style={{ marginBottom: 20 }}
+							variant='outlined'
+							color='disabled'>
 							See More
 						</Button>
 					</Link>
