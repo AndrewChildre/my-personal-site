@@ -5,6 +5,8 @@ import Grid from '@material-ui/core/Grid';
 import Weather from './Weather.png';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 import michelin from './michelin.png';
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -36,13 +38,19 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid justify='center' alignItems='center' container >
+			<Grid justify='center' alignItems='center' container>
 				<Grid item xs={12} sm={6}>
-					<img className={classes.border} src={michelin} alt='Weather pic' height='560' width='320' />
+					<img
+						className={classes.border}
+						src={michelin}
+						alt='Weather pic'
+						height='560'
+						width='320'
+					/>
 				</Grid>
 				<Grid item xs={12} sm={6}>
 					<h2 className={classes.headings}>Michelin Finder</h2>
-					<p style={{margin: 20}}>
+					<p style={{ margin: 20 }}>
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
@@ -53,6 +61,11 @@ export default function CenteredGrid() {
 						and more recently with desktop publishing software like Aldus
 						PageMaker including versions of Lorem Ipsum.
 					</p>
+					<Link href='https://michelin-restaurant-finder.herokuapp.com/'>
+						<Button style={{marginBottom: 20}} variant='outlined' color='disabled'>
+							See More
+						</Button>
+					</Link>
 				</Grid>
 			</Grid>
 		</div>

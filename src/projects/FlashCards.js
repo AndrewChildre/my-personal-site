@@ -1,10 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Weather from './Weather.png';
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 import flash1 from './flash1.jpg';
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -20,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	headings: {
 		fontFamily: 'Caveat',
-		fontSize: 40,
+		fontSize: 50,
 		color: '#1f333c',
 	},
 	border: {
@@ -36,10 +34,12 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid justify='center' alignItems='center' container >
-				<Grid item xs={12} sm={6}>
-					<h2 align='center' className={classes.headings}>Flash Cards</h2>
-					<p style={{margin: 20}}>
+			<Grid justify='center' alignItems='center' container>
+				<Grid align='center' item xs={12} sm={6}>
+					<h2 align='center' className={classes.headings}>
+						Flash Cards
+					</h2>
+					<p style={{ margin: 20 }}>
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
@@ -50,9 +50,20 @@ export default function CenteredGrid() {
 						and more recently with desktop publishing software like Aldus
 						PageMaker including versions of Lorem Ipsum.
 					</p>
+					<Link href='https://andrewchildre.github.io/Flash-Cards/'>
+						<Button variant='outlined' color='disabled'>
+							See More
+						</Button>
+					</Link>
 				</Grid>
 				<Grid align='center' item xs={12} sm={6}>
-					<img className={classes.border} src={flash1} alt='Weather pic' height='550' width='340' />
+					<img
+						className={classes.border}
+						src={flash1}
+						alt='Weather pic'
+						height='550'
+						width='330'
+					/>
 				</Grid>
 			</Grid>
 		</div>
