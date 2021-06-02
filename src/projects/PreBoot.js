@@ -42,9 +42,17 @@ export default function CenteredGrid() {
 						Study Guide
 					</h2>
 					<p style={{ margin: 20 }}>
-						Being a Marine Corps veteran, this bootcamp study guide was one of my favorite projects. One of my favorite features is the sliding menu drawer feature. This is a fullstack app where you can track your fitness test results. It is built with the following technologies. React, Javascript, Material UI, HTML, CSS, MongoDB, Python. I deployed it on Heroku so be patient with it loading.
+						Being a Marine Corps veteran, this bootcamp study guide was one of
+						my favorite projects. One of my favorite features is the sliding
+						menu drawer feature. This is a fullstack app where you can track
+						your fitness test results. It is built with the following
+						technologies. React, Javascript, Material UI, HTML, CSS, MongoDB,
+						Python. I deployed it on Heroku so be patient with it loading.
 					</p>
-					<Link href='https://pre-boot-frontend.herokuapp.com/'>
+					<Link
+						target='_blank'
+						rel='noreferrer'
+						href='https://pre-boot-frontend.herokuapp.com/'>
 						<Button variant='outlined' color='disabled'>
 							See More
 						</Button>

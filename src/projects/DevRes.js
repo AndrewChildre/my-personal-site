@@ -50,7 +50,10 @@ export default function CenteredGrid() {
 						edges, but it does what I set out to accomplish. This one is on
 						Heroku.
 					</p>
-					<Link href='https://hack-pro-ac.herokuapp.com/boxes'>
+					<Link
+						target='_blank'
+						rel='noreferrer'
+						href='https://hack-pro-ac.herokuapp.com/boxes'>
 						<Button
 							style={{ marginBottom: 20 }}
 							variant='outlined'

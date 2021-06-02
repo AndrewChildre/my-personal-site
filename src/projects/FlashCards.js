@@ -40,7 +40,10 @@ export default function CenteredGrid() {
 						is built on HTML, CSS, Javascript, and Boostrap. It is also deployed
 						on Heroku.
 					</p>
-					<Link href='https://andrewchildre.github.io/Flash-Cards/'>
+					<Link
+						target='_blank'
+						rel='noreferrer'
+						href='https://andrewchildre.github.io/Flash-Cards/'>
 						<Button variant='outlined' color='disabled'>
 							See More
 						</Button>

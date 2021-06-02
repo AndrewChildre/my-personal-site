@@ -35,7 +35,10 @@ export default function ButtonAppBar() {
 						Andrew Childre
 					</Typography>
 
-					<a href='https://github.com/AndrewChildre'>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						href='https://github.com/AndrewChildre'>
 						<img
 							src='https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg'
 							alt='GitHub'
@@ -48,7 +51,10 @@ export default function ButtonAppBar() {
 							}}
 						/>
 					</a>
-					<a href='https://www.linkedin.com/in/andrew-childre/'>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						href='https://www.linkedin.com/in/andrew-childre/'>
 						<img
 							src='https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-plain.svg'
 							alt='Linkedin'
