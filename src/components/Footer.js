@@ -23,7 +23,7 @@ export default function CenteredGrid() {
 					<h3 className={classes.stlying}>
 						Thank you for visiting
 						<br />
-						Andrew C
+						Andrew C 123
 					</h3>
 				</Grid>
 				<Grid item xs={12}></Grid>
