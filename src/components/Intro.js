@@ -41,10 +41,18 @@ export default function CenteredGrid() {
 						to develop a skill set, that gives me the challenges that I need to
 						excel. Outside of my passion for software development. I love
 						traveling, seeing as much of this beautiful planet as possible.
+						<br />
+						I'm currently looking for new opportunities, and happy to connect
+						with you.
 					</h3>
 					<Link target='_blank' href={Resume}>
 						<Button variant='outlined' color='disabled'>
 							Resume
+						</Button>
+					</Link>
+					<Link style={{marginLeft: 20}} target='_blank' href='mailto:andrewchildre@gmail.com' >
+						<Button variant='outlined' color='disabled'>
+							Email
 						</Button>
 					</Link>
 				</Grid>
