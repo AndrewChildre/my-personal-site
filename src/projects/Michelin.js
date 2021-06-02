@@ -43,10 +43,10 @@ export default function CenteredGrid() {
 				<Grid item xs={12} sm={6}>
 					<h2 className={classes.headings}>Michelin Finder</h2>
 					<p style={{ margin: 20 }}>
-						This is the Michelin Star Restaurant finder app. This was a team
+						This is the Michelin Star Restaurant finder. This was a team
 						project with four members. We had a week to complete the entire
 						project, from conception to mvp. It was an awesome experience, the
-						completed project shows all the work we put in. This is a full stack
+						completed project shows all the hard work we put in. This is a fullstack
 						app that is built on the following technologies. React.js,
 						Javascript, Bootstrap, Flexbox, HTML,CSS. The backend uses a custom
 						build API from Node.js with Express. It also uses a database with

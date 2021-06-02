@@ -48,7 +48,7 @@ export default function CenteredGrid() {
 						is where I started using Material UI. I used the card component
 						specifically to get the layout I wanted. The app is rough around the
 						edges, but it does what I set out to accomplish. This one is on
-						Heroku.
+						Heroku as well.
 					</p>
 					<Link
 						target='_blank'

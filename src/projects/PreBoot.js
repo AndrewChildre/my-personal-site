@@ -47,7 +47,7 @@ export default function CenteredGrid() {
 						menu drawer feature. This is a fullstack app where you can track
 						your fitness test results. It is built with the following
 						technologies. React, Javascript, Material UI, HTML, CSS, MongoDB,
-						Python. I deployed it on Heroku so be patient with it loading.
+						Python. I deployed it on Heroku so be patient with it loading the first time.
 					</p>
 					<Link
 						target='_blank'
