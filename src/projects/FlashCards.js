@@ -40,15 +40,7 @@ export default function CenteredGrid() {
 						Flash Cards
 					</h2>
 					<p style={{ margin: 20 }}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book. It has survived not
-						only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged. It was popularised in the 1960s
-						with the release of Letraset sheets containing Lorem Ipsum passages,
-						and more recently with desktop publishing software like Aldus
-						PageMaker including versions of Lorem Ipsum.
+						My Flash Cards app is special to me, this was the first project that I completed. It was very challenging at the time I built it, although I did learn so much in the process of making it. This one is built on HTML, CSS, Javascript, and Boostrap. It is also deployed on Heroku.
 					</p>
 					<Link href='https://andrewchildre.github.io/Flash-Cards/'>
 						<Button variant='outlined' color='disabled'>
@@ -69,56 +61,3 @@ export default function CenteredGrid() {
 		</div>
 	);
 }
-
-// import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
-// import Card from '@material-ui/core/Card';
-// import CardActionArea from '@material-ui/core/CardActionArea';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
-// import CardMedia from '@material-ui/core/CardMedia';
-// import Button from '@material-ui/core/Button';
-// import Typography from '@material-ui/core/Typography';
-// import flash from './flash.jpg'
-
-// const useStyles = makeStyles({
-// 	root: {
-// 		maxWidth: 345,
-// 		maxHeight: 700,
-// 	},
-// 	media: {
-// 		height: '70vh',
-// 		width: '100%',
-// 		marginTop: 20,
-// 	},
-// });
-
-// export default function MediaCard() {
-// 	const classes = useStyles();
-
-// 	return (
-// 		<Card className={classes.root}>
-// 			<CardActionArea>
-// 				<CardContent>
-// 					<Typography gutterBottom variant='h5' component='h2'>
-// 						Flash Cards
-// 					</Typography>
-// 					<Typography variant='body2' color='textSecondary' component='p'>
-// 						Random javascript questions
-// 					</Typography>
-// 					<CardMedia
-// 						className={classes.media}
-// 						image={flash}
-// 						title='landing page'
-// 					/>
-// 				</CardContent>
-// 			</CardActionArea>
-// 			<CardActions>
-// 				<Button size='small' color='primary'></Button>
-// 				<Button size='small' color='primary'>
-// 					Learn More
-// 				</Button>
-// 			</CardActions>
-// 		</Card>
-// 	);
-// }

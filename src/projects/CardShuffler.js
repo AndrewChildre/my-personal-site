@@ -48,15 +48,7 @@ export default function CenteredGrid() {
 				<Grid item xs={12} sm={6}>
 					<h2 className={classes.headings}>Card Shuffler</h2>
 					<p style={{ margin: 20 }}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book. It has survived not
-						only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged. It was popularised in the 1960s
-						with the release of Letraset sheets containing Lorem Ipsum passages,
-						and more recently with desktop publishing software like Aldus
-						PageMaker including versions of Lorem Ipsum.
+					The Card Shuffler is something I put together as a code challenge, that I received from an interview. It utilizes a third party to get the card information. I used React, Javascript, HTML, CSS. Deployed to Heroku.
 					</p>
 					<Link href='https://card-shuffler-1.herokuapp.com/?'>
 						<Button style={{ margin: 20 }} variant='outlined' color='disabled'>
