@@ -1,10 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Intro from './Intro'
-import About from './About'
-import Picture from './Picture'
 import SkillSet from './SkillSet'
 import ProjectWeather from '../projects/ProjectWeather'
 import Michelin from '../projects/Michelin'
