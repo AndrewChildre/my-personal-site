@@ -52,7 +52,10 @@ export default function CenteredGrid() {
 						build API from Node.js with Express. It also uses a database with
 						MongoDB. This app also was deployed via Heroku.{' '}
 					</p>
-					<Link href='https://michelin-restaurant-finder.herokuapp.com/'>
+					<Link
+						target='_blank'
+						rel='noreferrer'
+						href='https://michelin-restaurant-finder.herokuapp.com/'>
 						<Button
 							style={{ marginBottom: 20 }}
 							variant='outlined'

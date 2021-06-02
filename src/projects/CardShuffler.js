@@ -47,7 +47,10 @@ export default function CenteredGrid() {
 						the card information. I used React, Javascript, HTML, CSS. Deployed
 						to Heroku.
 					</p>
-					<Link href='https://card-shuffler-1.herokuapp.com/?'>
+					<Link
+						target='_blank'
+						rel='noreferrer'
+						href='https://card-shuffler-1.herokuapp.com/?'>
 						<Button style={{ margin: 20 }} variant='outlined' color='disabled'>
 							See More
 						</Button>
