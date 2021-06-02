@@ -8,14 +8,8 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		
-		// padding: 20,
 	},
-	paper: {
-		// padding: theme.spacing(2),
-		textAlign: 'center',
-		// color: theme.palette.text.secondary,
-	},
+
 	headings: {
 		fontFamily: 'Caveat',
 		fontSize: 50,
@@ -25,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
 		border: '5px solid #5199e4',
 		borderRadius: 10,
 		marginTop: 20,
-		maginBottom: 20
+		maginBottom: 20,
 	},
 }));
 
@@ -40,7 +34,11 @@ export default function CenteredGrid() {
 						Flash Cards
 					</h2>
 					<p style={{ margin: 20 }}>
-						My Flash Cards app is special to me, this was the first project that I completed. It was very challenging at the time I built it, although I did learn so much in the process of making it. This one is built on HTML, CSS, Javascript, and Boostrap. It is also deployed on Heroku.
+						My Flash Cards app is special to me, this was the first project that
+						I completed. It was very challenging at the time I built it,
+						although I did learn so much in the process of making it. This one
+						is built on HTML, CSS, Javascript, and Boostrap. It is also deployed
+						on Heroku.
 					</p>
 					<Link href='https://andrewchildre.github.io/Flash-Cards/'>
 						<Button variant='outlined' color='disabled'>

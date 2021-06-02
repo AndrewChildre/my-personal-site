@@ -1,21 +1,19 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 import me1 from '../Me1.jpg';
+import Resume from '../Resume.pdf';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
 		backgroundColor: '#39caf7',
-		// padding: 20,
 		marginTop: 280,
 	},
-	paper: {
-		// padding: theme.spacing(2),
-		// textAlign: 'center',
-	},
+
 	headings: {
 		fontFamily: 'Caveat',
 		fontSize: 80,
@@ -25,8 +23,7 @@ const useStyles = makeStyles((theme) => ({
 		border: '5px solid #5199e4',
 		borderRadius: 10,
 		marginTop: 20,
-		marginBottom: 20
-
+		marginBottom: 20,
 	},
 }));
 
@@ -35,16 +32,21 @@ export default function CenteredGrid() {
 
 	return (
 		<div className={classes.root}>
-			<Grid  container >
+			<Grid container>
 				<Grid item xs={12} md={6}>
 					<h2 className={classes.headings}>About Me</h2>
-					<h3 style={{margin: 20}}>
+					<h3 style={{ margin: 20 }}>
 						Hello my friends! I am a dedicated full-stack devloper with an
 						extensive background in the transportation industry. I have chosen
 						to develop a skill set, that gives me the challenges that I need to
 						excel. Outside of my passion for software development. I love
 						traveling, seeing as much of this beautiful planet as possible.
 					</h3>
+					<Link target='_blank' href={Resume}>
+						<Button variant='outlined' color='disabled'>
+							Resume
+						</Button>
+					</Link>
 				</Grid>
 				<Grid item xs={12} md={6}>
 					<img
@@ -59,22 +61,3 @@ export default function CenteredGrid() {
 		</div>
 	);
 }
-
-// import React from 'react';
-
-// const Intro = () => {
-//     return (
-// 			<div className='intro-1'>
-
-// 				<h1>
-// 					Hello, my name is Andrew Childre
-// 					<br />I am a full-stack Software Engineer
-
-// 				</h1>
-
-// 			</div>
-
-// 		);
-// };
-
-// export default Intro;

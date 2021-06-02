@@ -1,8 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
-import avataaars from './avataaars.png'
-
+import avataaars from './avataaars.png';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -19,7 +18,6 @@ export default function ImageAvatars() {
 	return (
 		<div className={classes.root}>
 			<Avatar src={avataaars} />
-		
 		</div>
 	);
 }
