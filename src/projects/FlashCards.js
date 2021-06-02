@@ -36,7 +36,7 @@ export default function CenteredGrid() {
 					<p style={{ margin: 20 }}>
 						My Flash Cards app is special to me, this was the first project that
 						I completed. It was very challenging at the time I built it,
-						although I did learn so much in the process of making it. This one
+						although I learned so much in the process of making it. This one
 						is built on HTML, CSS, Javascript, and Boostrap. It is also deployed
 						on Heroku.
 					</p>
