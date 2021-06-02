@@ -42,7 +42,7 @@ export default function CenteredGrid() {
 						Study Guide
 					</h2>
 					<p style={{ margin: 20 }}>
-						Being a Marine Corps veteran, this bootcamp study guide was one of my favorite projects. 
+						Being a Marine Corps veteran, this bootcamp study guide was one of my favorite projects. One of my favorite features is the sliding menu drawer feature. This is a fullstack app where you can track your fitness test results. It is built with the following technologies. React, Javascript, Material UI, HTML, CSS, MongoDB, Python. I deployed it on Heroku so be patient with it loading.
 					</p>
 					<Link href='https://pre-boot-frontend.herokuapp.com/'>
 						<Button variant='outlined' color='disabled'>
@@ -63,56 +63,3 @@ export default function CenteredGrid() {
 		</div>
 	);
 }
-
-// import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
-// import Card from '@material-ui/core/Card';
-// import CardActionArea from '@material-ui/core/CardActionArea';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
-// import CardMedia from '@material-ui/core/CardMedia';
-// import Button from '@material-ui/core/Button';
-// import Typography from '@material-ui/core/Typography';
-// import usmc1 from './usmc1.png'
-
-// const useStyles = makeStyles({
-// 	root: {
-// 		maxWidth: 345,
-// 		maxHeight: 700,
-// 	},
-// 	media: {
-// 		height: '70vh',
-// 		width: '100%',
-//         marginTop: 20
-// 	},
-// });
-
-// export default function MediaCard() {
-// 	const classes = useStyles();
-
-// 	return (
-// 		<Card className={classes.root}>
-// 			<CardActionArea>
-// 				<CardContent>
-// 					<Typography gutterBottom variant='h5' component='h2'>
-// 						USMC Pre-bootcamp
-// 					</Typography>
-// 					<Typography variant='body2' color='textSecondary' component='p'>
-// 						Study guide for recruits going to bootcamp
-// 					</Typography>
-// 					<CardMedia
-// 						className={classes.media}
-// 						image={usmc1}
-// 						title='USMC Pre-Bootcamp'
-// 					/>
-// 				</CardContent>
-// 			</CardActionArea>
-// 			<CardActions>
-// 				<Button size='small' color='primary'></Button>
-// 				<Button size='small' color='primary'>
-// 					Learn More
-// 				</Button>
-// 			</CardActions>
-// 		</Card>
-// 	);
-// }

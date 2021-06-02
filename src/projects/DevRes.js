@@ -47,15 +47,7 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12} sm={6}>
 					<h2 className={classes.headings}>Developer Resources</h2>
 					<p style={{ margin: 20 }}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book. It has survived not
-						only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged. It was popularised in the 1960s
-						with the release of Letraset sheets containing Lorem Ipsum passages,
-						and more recently with desktop publishing software like Aldus
-						PageMaker including versions of Lorem Ipsum.
+						The Developer Resources app was a sprint project that I did. We were challenged to use a technology that we had not used previously. This is where I started using Material UI. I used the card component specifically to get the layout I wanted. The app is rough around the edges, but it does what I set out to accomplish. This one is on Heroku.
 					</p>
 					<Link href='https://hack-pro-ac.herokuapp.com/boxes'>
 						<Button variant='outlined' color='disabled'>
