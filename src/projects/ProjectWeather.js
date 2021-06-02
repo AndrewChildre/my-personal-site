@@ -39,15 +39,7 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12} sm={6}>
 					<h2 className={classes.headings}>Weather App</h2>
 					<p style={{ margin: 20 }}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book. It has survived not
-						only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged. It was popularised in the 1960s
-						with the release of Letraset sheets containing Lorem Ipsum passages,
-						and more recently with desktop publishing software like Aldus
-						PageMaker including versions of Lorem Ipsum.
+						This weather forcast app was my second project. It was fun to build, I learned a lot along the way. My favorite part is the when weather data scrolls through screen. It uses the Open Weather API to retreive the weather data from the city that is entered. The following technologies were used. React, Javascript, HTML, CSS, VS Code, Git. I deployed it via Heroku. The Heroku service is slow to launch, so you have to be patient with it. 
 					</p>
 					<Link href='https://childre-project-weather.herokuapp.com/'>
 						<Button variant='outlined' color='disabled'>

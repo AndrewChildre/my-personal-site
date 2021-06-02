@@ -50,19 +50,12 @@ export default function CenteredGrid() {
 				</Grid>
 				<Grid item xs={12} sm={6}>
 					<h2 className={classes.headings}>Michelin Finder</h2>
-					<p style={{ margin: 20 }}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book. It has survived not
-						only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged. It was popularised in the 1960s
-						with the release of Letraset sheets containing Lorem Ipsum passages,
-						and more recently with desktop publishing software like Aldus
-						PageMaker including versions of Lorem Ipsum.
-					</p>
+					<p style={{ margin: 20 }}>This is the Michelin Star Restaurant finder app. This was a team project with four members. We had a week to complete the entire project, from conception to mvp. It was an awesome experience, the completed project shows all the work we put in. This is a full stack app that is built on the following technologies. React.js, Javascript, Bootstrap, Flexbox, HTML,CSS. The backend uses a custom build API from Node.js with Express. It also uses a database with MongoDB. This app also was deployed via Heroku.  </p>
 					<Link href='https://michelin-restaurant-finder.herokuapp.com/'>
-						<Button style={{marginBottom: 20}} variant='outlined' color='disabled'>
+						<Button
+							style={{ marginBottom: 20 }}
+							variant='outlined'
+							color='disabled'>
 							See More
 						</Button>
 					</Link>
