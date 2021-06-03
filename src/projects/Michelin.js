@@ -47,7 +47,7 @@ export default function CenteredGrid() {
 						project with four members. We had a week to complete the entire
 						project, from conception to mvp. It was an awesome experience, the
 						completed project shows all the hard work we put in. This is a fullstack
-						app that is built on the following technologies. React.js,
+						app that is built on the following technologies; React,
 						Javascript, Bootstrap, Flexbox, HTML,CSS. The backend uses a custom
 						build API from Node.js with Express. It also uses a database with
 						MongoDB. This app also was deployed via Heroku.{' '}
