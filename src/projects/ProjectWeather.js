@@ -32,10 +32,10 @@ export default function CenteredGrid() {
 					<h2 className={classes.headings}>Weather App</h2>
 					<p style={{ margin: 20 }}>
 						This weather forcast app was my second project. It was fun to build,
-						I learned a lot along the way. My favorite part is the when weather
+						I learned a lot along the way. My favorite part is when the weather
 						data scrolls through screen. It uses the Open Weather API to
 						retreive the weather data from the city that is entered. The
-						following technologies were used. React, Javascript, HTML, CSS, VS
+						following technologies were used; React, Javascript, HTML, CSS, VS
 						Code, Git. I deployed it via Heroku. The Heroku service is slow to
 						launch, so you have to be patient with it.
 					</p>

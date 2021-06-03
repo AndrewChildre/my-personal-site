@@ -36,11 +36,11 @@ export default function CenteredGrid() {
 				<Grid item xs={12} md={6}>
 					<h2 className={classes.headings}>About Me</h2>
 					<h3 style={{ margin: 20 }}>
-						Hello my friends! I am a dedicated full-stack devloper with an
+						Hello my friends! I am a dedicated full-stack developer with an
 						extensive background in the transportation industry. I have chosen
 						to develop a skill set, that gives me the challenges that I need to
-						excel. Outside of my passion for software development. I love
-						traveling, seeing as much of this beautiful planet as possible.
+						excel. Outside of my passion for software development, I love
+						traveling and seeing as much of this beautiful planet as possible.
 						<br />
 						I'm currently looking for new opportunities, and happy to connect
 						with you.
