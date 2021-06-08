@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import me1 from '../Me1.jpg';
-import Resume from '../Resume.pdf';
+import Resume from '../Resume2.pdf';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
