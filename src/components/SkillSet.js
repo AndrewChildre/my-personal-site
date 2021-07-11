@@ -56,8 +56,20 @@ export default function CenteredGrid() {
 							<img
 								src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
 								alt='javascript'
-								width='70'
-								height='70'
+								width='60'
+								height='60'
+							/>
+						</a>
+
+						<a
+							href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+							target='_blank'
+							rel='noreferrer'>
+							<img
+								src='https://raw.githubusercontent.com/AndrewChildre/devicon/master/icons/typescript/typescript-original.svg'
+								alt='typescript'
+								width='60'
+								height='60'
 							/>
 						</a>
 						<a href='https://reactjs.org/' target='_blank' rel='noreferrer'>
@@ -72,16 +84,16 @@ export default function CenteredGrid() {
 							<img
 								src='https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg'
 								alt='bootstrap'
-								width='70'
-								height='70'
+								width='60'
+								height='60'
 							/>
 						</a>
 						<a href='https://material-ui.com/' target='_blank' rel='noreferrer'>
 							<img
 								src='https://raw.githubusercontent.com/AndrewChildre/devicon/master/icons/materialui/materialui-original.svg'
 								alt='vs code'
-								width='70'
-								height='70'
+								width='60'
+								height='60'
 							/>
 						</a>
 					</Paper>
