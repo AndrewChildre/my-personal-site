@@ -3,24 +3,26 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
-import flash1 from './flash1.jpg';
+import formVal from '../projects/formVal.png'
+
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		backgroundColor: '#39caf7',
+		
 	},
 
 	headings: {
 		fontFamily: 'Caveat',
-		fontSize: 50,
+		fontSize: 45,
 		color: '#1f333c',
+		marginLeft: 20
 	},
 	border: {
 		border: '5px solid #5199e4',
 		borderRadius: 10,
 		marginTop: 20,
-		maginBottom: 20,
+		marginBottom: 20,
 	},
 }));
 
@@ -31,33 +33,30 @@ export default function CenteredGrid() {
 		<div className={classes.root}>
 			<Grid justify='center' alignItems='center' container>
 				<Grid align='center' item xs={12} sm={6}>
-					<h2 align='center' className={classes.headings}>
-						Flash Cards
-					</h2>
+					<img 
+						className={classes.border}
+						src={formVal}
+						alt='Weather pic'
+						height='300'
+						width='330'
+					/>
+				</Grid>
+				<Grid align='center' item xs={12} sm={6}>
+					<h2 className={classes.headings}>Form Validation</h2>
 					<p style={{ margin: 20 }}>
-						My Flash Cards app is special to me, this was the first project that
-						I completed. It was very challenging at the time I built it,
-						although I learned so much in the process of making it. This one
-						is built on HTML, CSS, Javascript, and Boostrap. It is also deployed
-						on Heroku.
+					This is a personal project that I undertook to demonstrate new skills I have developed. I have learned Typescript, along with getting more proficient with node packages. The technologies that I used are React, Typescript, HTML, CSS. I also used 3 different node packages, react-hook-form, react-modal, and react-confetti.
 					</p>
 					<Link
 						target='_blank'
 						rel='noreferrer'
-						href='https://andrewchildre.github.io/Flash-Cards/'>
-						<Button variant='outlined' color='disabled'>
+						href='https://not-a-give-away.netlify.app/'>
+						<Button
+							style={{ marginBottom: 20 }}
+							variant='outlined'
+							color='disabled'>
 							See More
 						</Button>
 					</Link>
-				</Grid>
-				<Grid align='center' item xs={12} sm={6}>
-					<img
-						className={classes.border}
-						src={flash1}
-						alt='Weather pic'
-						height='550'
-						width='330'
-					/>
 				</Grid>
 			</Grid>
 		</div>

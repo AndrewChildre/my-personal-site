@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		backgroundColor: '#39caf7',
+		
 	},
 
 	headings: {

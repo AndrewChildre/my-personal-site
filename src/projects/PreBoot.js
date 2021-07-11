@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		
+		backgroundColor: '#39caf7',
 		// padding: 20,
 	},
 	paper: {
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 		border: '5px solid #5199e4',
 		borderRadius: 10,
 		marginTop: 20,
-		marginBottom: 20
+		marginBottom: 20,
 	},
 }));
 

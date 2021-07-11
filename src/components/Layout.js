@@ -8,7 +8,7 @@ import Michelin from '../projects/Michelin';
 import PreBoot from '../projects/PreBoot';
 import CardShuffler from '../projects/CardShuffler';
 import FlashCards from '../projects/FlashCards';
-import DevRes from '../projects/DevRes';
+import FormVal from '../projects/FormVal'
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
@@ -37,6 +37,9 @@ export default function CenteredGrid() {
 				<Grid className={classes.heading} align='center' item xs={12}>
 					<h2>Projects</h2>
 				</Grid>
+				<Grid>
+					<FormVal />
+				</Grid>
 				<Grid align='center' item xs={12}>
 					<ProjectWeather />
 				</Grid>
@@ -53,9 +56,7 @@ export default function CenteredGrid() {
 					<FlashCards />
 				</Grid>
 
-				<Grid item sm={12}>
-					<DevRes />
-				</Grid>
+			
 			</Grid>
 		</div>
 	);
