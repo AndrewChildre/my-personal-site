@@ -42,15 +42,14 @@ export default function CenteredGrid() {
 				<Grid item xs={12} sm={6}>
 					<h2 className={classes.headings}>Card Shuffler</h2>
 					<p style={{ margin: 20 }}>
-						The Card Shuffler is something I put together as a code challenge,
-						that I received from an interview. It utilizes a third party API to get
-						the card information. I used React, Javascript, HTML, CSS. Deployed
-						to my Heroku account.
+						The Card Shuffler is something I put together as a code challenge to practice my API understanding. It utilizes a third party API to
+						get the card information. I used React, Javascript, HTML, CSS.
+						Deployed to my netlify account.
 					</p>
 					<Link
 						target='_blank'
 						rel='noreferrer'
-						href='https://card-shuffler-1.herokuapp.com/?'>
+						href='https://card-shuffler.netlify.app'>
 						<Button style={{ margin: 20 }} variant='outlined' color='disabled'>
 							See More
 						</Button>
