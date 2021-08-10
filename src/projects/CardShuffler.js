@@ -43,14 +43,14 @@ export default function CenteredGrid() {
 					<h2 className={classes.headings}>Card Shuffler</h2>
 					<p style={{ margin: 20 }}>
 						The Card Shuffler is something I put together as a code challenge,
-						that I received from an interview. It utilizes a third party API to get
-						the card information. I used React, Javascript, HTML, CSS. Deployed
-						to my Heroku account.
+						that I received from an interview. It utilizes a third party API to
+						get the card information. I used React, Javascript, HTML, CSS.
+						Deployed to my Heroku account.
 					</p>
 					<Link
 						target='_blank'
 						rel='noreferrer'
-						href='https://card-shuffler-1.herokuapp.com/?'>
+						href='https://card-shuffler.netlify.app'>
 						<Button style={{ margin: 20 }} variant='outlined' color='disabled'>
 							See More
 						</Button>
