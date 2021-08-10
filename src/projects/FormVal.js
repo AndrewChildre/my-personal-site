@@ -44,7 +44,7 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12} sm={6}>
 					<h2 className={classes.headings}>Form Validation</h2>
 					<p style={{ margin: 20 }}>
-					This is a personal project that I undertook to demonstrate new skills I have developed. I have learned Typescript, along with getting more proficient with node packages. The technologies that I used are React, Typescript, HTML, CSS. I also used 3 different node packages, react-hook-form, react-modal, and react-confetti.
+					This is a personal project that I undertook to demonstrate some new skills that I have developed. I have learned Typescript, along with getting more proficient with node packages. The technologies that I used are React, Typescript, HTML, CSS. I also used 3 different node packages, react-hook-form, react-modal, and react-confetti. I deployed it on my netlify account.
 					</p>
 					<Link
 						target='_blank'

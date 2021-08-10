@@ -37,20 +37,27 @@ export default function CenteredGrid() {
 					<h2 className={classes.headings}>About Me</h2>
 					<h3 style={{ margin: 20 }}>
 						Hello my friends! I am a dedicated full-stack developer with an
-						extensive background in the transportation industry. I have chosen
-						to develop a skill set, that gives me the challenges that I need to
-						excel. Outside of my passion for software development, I love
-						traveling and seeing as much of this beautiful planet as possible.
+						extensive background in the transportation industry. I continue to
+						develop my skill set that gives me the challenges that I need to
+						excel. I’m a highly motivated person that loves to code. I take
+						challenges head on, and never quit. I believe I would be a valuable
+						addition to anyone's team. Outside of my passion for
+						software development, I love traveling and seeing as much of this
+						beautiful planet as possible.
 						<br />
-						I'm currently looking for new opportunities, and happy to connect
-						with you.
+						<br />
+						I'm currently looking for new opportunities, and would be happy to
+						connect with you.
 					</h3>
 					<Link target='_blank' href={Resume1}>
 						<Button variant='outlined' color='disabled'>
 							Resume
 						</Button>
 					</Link>
-					<Link style={{marginLeft: 20}} target='_blank' href='mailto:andrewchildre@gmail.com' >
+					<Link
+						style={{ marginLeft: 20 }}
+						target='_blank'
+						href='mailto:andrewchildre@gmail.com'>
 						<Button variant='outlined' color='disabled'>
 							Email
 						</Button>
