@@ -21,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
 		borderRadius: 10,
 		marginTop: 20,
 	},
+	button: {
+		backgroundColor: '#02a5db',
+	},
 }));
 
 export default function CenteredGrid() {
@@ -44,7 +47,7 @@ export default function CenteredGrid() {
 						target='_blank'
 						rel='noreferrer'
 						href='https://childre-project-weather.herokuapp.com/'>
-						<Button variant='outlined' color='disabled'>
+						<Button variant='outlined' className={classes.button}>
 							See More
 						</Button>
 					</Link>

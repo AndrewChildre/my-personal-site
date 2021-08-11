@@ -9,12 +9,9 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 		color: '#1f333c',
 		backgroundColor: '#39caf7',
-		// padding: 20,
 	},
 	paper: {
-		// padding: theme.spacing(2),
 		textAlign: 'center',
-		// color: theme.palette.text.secondary,
 	},
 	headings: {
 		fontFamily: 'Caveat',
@@ -26,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
 		borderRadius: 10,
 		marginTop: 20,
 		marginBottom: 20,
+	},
+	button: {
+		backgroundColor: '#02a5db',
 	},
 }));
 
@@ -47,13 +47,14 @@ export default function CenteredGrid() {
 						menu drawer feature. This is a fullstack app where you can track
 						your fitness test results. It is built with the following
 						technologies; React, Javascript, Material UI, HTML, CSS, MongoDB,
-						Python. I deployed it on Heroku so be patient with it loading the first time.
+						Python. I deployed it on Heroku so be patient with it loading the
+						first time.
 					</p>
 					<Link
 						target='_blank'
 						rel='noreferrer'
 						href='https://pre-boot-frontend.herokuapp.com/'>
-						<Button variant='outlined' color='disabled'>
+						<Button variant='outlined' className={classes.button}>
 							See More
 						</Button>
 					</Link>
