@@ -9,20 +9,22 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		
 	},
 
 	headings: {
 		fontFamily: 'Caveat',
 		fontSize: 45,
 		color: '#1f333c',
-		marginLeft: 20
+		marginLeft: 20,
 	},
 	border: {
 		border: '5px solid #5199e4',
 		borderRadius: 10,
 		marginTop: 20,
 		marginBottom: 20,
+	},
+	button: {
+		backgroundColor: '#02a5db',
 	},
 }));
 
@@ -33,7 +35,7 @@ export default function CenteredGrid() {
 		<div className={classes.root}>
 			<Grid justify='center' alignItems='center' container>
 				<Grid align='center' item xs={12} sm={6}>
-					<img 
+					<img
 						className={classes.border}
 						src={formVal}
 						alt='Weather pic'
@@ -44,13 +46,19 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12} sm={6}>
 					<h2 className={classes.headings}>Form Validation</h2>
 					<p style={{ margin: 20 }}>
-					This is a personal project that I undertook to demonstrate some new skills that I have developed. I have learned Typescript, along with getting more proficient with node packages. The technologies that I used are React, Typescript, HTML, CSS. I also used 3 different node packages, react-hook-form, react-modal, and react-confetti. I deployed it on my netlify account.
+						This is a personal project that I undertook to demonstrate some new
+						skills that I have developed. I have learned Typescript, along with
+						getting more proficient with node packages. The technologies that I
+						used are React, Typescript, HTML, CSS. I also used 3 different node
+						packages, react-hook-form, react-modal, and react-confetti. I
+						deployed it on my netlify account.
 					</p>
 					<Link
 						target='_blank'
 						rel='noreferrer'
 						href='https://not-a-give-away.netlify.app/'>
 						<Button
+							className={classes.button}
 							style={{ marginBottom: 20 }}
 							variant='outlined'
 							color='disabled'>

@@ -25,6 +25,9 @@ const useStyles = makeStyles((theme) => ({
 		marginTop: 20,
 		marginBottom: 20,
 	},
+	button: {
+		backgroundColor: '#02a5db',
+	},
 }));
 
 export default function CenteredGrid() {
@@ -41,16 +44,19 @@ export default function CenteredGrid() {
 						develop my skill set that gives me the challenges that I need to
 						excel. I’m a highly motivated person that loves to code. I take
 						challenges head on, and never quit. I believe I would be a valuable
-						addition to anyone's team. Outside of my passion for
-						software development, I love traveling and seeing as much of this
-						beautiful planet as possible.
+						addition to anyone's team. Outside of my passion for software
+						development, I love traveling and seeing as much of this beautiful
+						planet as possible.
 						<br />
 						<br />
 						I'm currently looking for new opportunities, and would be happy to
 						connect with you.
 					</h3>
 					<Link target='_blank' href={Resume1}>
-						<Button variant='outlined' color='disabled'>
+						<Button
+							className={classes.button}
+							variant='outlined'
+							color='disabled'>
 							Resume
 						</Button>
 					</Link>
@@ -58,7 +64,10 @@ export default function CenteredGrid() {
 						style={{ marginLeft: 20 }}
 						target='_blank'
 						href='mailto:andrewchildre@gmail.com'>
-						<Button variant='outlined' color='disabled'>
+						<Button
+							className={classes.button}
+							variant='outlined'
+							color='disabled'>
 							Email
 						</Button>
 					</Link>

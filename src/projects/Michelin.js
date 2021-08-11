@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		
 	},
 
 	headings: {
@@ -22,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
 		borderRadius: 10,
 		marginTop: 20,
 		marginBottom: 20,
+	},
+	button: {
+		backgroundColor: '#02a5db',
 	},
 }));
 
@@ -43,20 +45,21 @@ export default function CenteredGrid() {
 				<Grid item xs={12} sm={6}>
 					<h2 className={classes.headings}>Michelin Finder</h2>
 					<p style={{ margin: 20 }}>
-						This is the Michelin Star Restaurant finder. This was a team
-						project with four members. We had a week to complete the entire
-						project, from conception to mvp. It was an awesome experience, the
-						completed project shows all the hard work we put in. This is a fullstack
-						app that is built on the following technologies; React,
-						Javascript, Bootstrap, Flexbox, HTML,CSS. The backend uses a custom
-						build API from Node.js with Express. It also uses a database with
-						MongoDB. This app also was deployed via Heroku.{' '}
+						This is the Michelin Star Restaurant finder. This was a team project
+						with four members. We had a week to complete the entire project,
+						from conception to mvp. It was an awesome experience, the completed
+						project shows all the hard work we put in. This is a fullstack app
+						that is built on the following technologies; React, Javascript,
+						Bootstrap, Flexbox, HTML,CSS. The backend uses a custom build API
+						from Node.js with Express. It also uses a database with MongoDB.
+						This app also was deployed via Heroku.{' '}
 					</p>
 					<Link
 						target='_blank'
 						rel='noreferrer'
 						href='https://michelin-restaurant-finder.herokuapp.com/'>
 						<Button
+							className={classes.button}
 							style={{ marginBottom: 20 }}
 							variant='outlined'
 							color='disabled'>

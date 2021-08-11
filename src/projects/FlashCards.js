@@ -22,6 +22,9 @@ const useStyles = makeStyles((theme) => ({
 		marginTop: 20,
 		maginBottom: 20,
 	},
+	button: {
+		backgroundColor: '#02a5db',
+	},
 }));
 
 export default function CenteredGrid() {
@@ -45,7 +48,7 @@ export default function CenteredGrid() {
 						target='_blank'
 						rel='noreferrer'
 						href='https://andrewchildre.github.io/Flash-Cards/'>
-						<Button variant='outlined' color='disabled'>
+						<Button variant='outlined' className={classes.button}>
 							See More
 						</Button>
 					</Link>

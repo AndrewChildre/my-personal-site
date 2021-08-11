@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
 		color: '#1f333c',
-		
 	},
 	headings: {
 		fontFamily: 'Caveat',
@@ -21,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
 		borderRadius: 10,
 		marginBottom: 20,
 		marginTop: 20,
+	},
+	button: {
+		backgroundColor: '#02a5db',
 	},
 }));
 
@@ -34,7 +36,7 @@ export default function CenteredGrid() {
 					<img
 						className={classes.border}
 						src={cards1}
-						alt='Weather pic'
+						alt='Card Pic'
 						height='436'
 						width='340'
 					/>
@@ -50,7 +52,7 @@ export default function CenteredGrid() {
 						target='_blank'
 						rel='noreferrer'
 						href='https://card-shuffler.netlify.app'>
-						<Button style={{ margin: 20 }} variant='outlined' color='disabled'>
+						<Button style={{ margin: 20 }} variant='outlined' className={classes.button}>
 							See More
 						</Button>
 					</Link>
