@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import me1 from '../Me1.jpg';
-import Resume1 from '../Resume1.pdf';
+import Resume11 from '../Resume11.pdf';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -52,11 +52,10 @@ export default function CenteredGrid() {
 						I'm currently looking for new opportunities, and would be happy to
 						connect with you.
 					</h3>
-					<Link target='_blank' href={Resume1}>
+					<Link target='_blank' href={Resume11}>
 						<Button
 							className={classes.button}
-							variant='outlined'
-							color='disabled'>
+							variant='outlined'>
 							Resume
 						</Button>
 					</Link>
