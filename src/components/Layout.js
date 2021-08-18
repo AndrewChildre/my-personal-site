@@ -41,13 +41,13 @@ export default function CenteredGrid() {
 					<FormVal />
 				</Grid>
 				<Grid align='center' item xs={12}>
-					<ProjectWeather />
+					<PreBoot />
 				</Grid>
 				<Grid align='center' item sm={12}>
 					<Michelin />
 				</Grid>
 				<Grid align='center' item sm={12}>
-					<PreBoot />
+					<ProjectWeather />
 				</Grid>
 				<Grid align='center' item sm={12}>
 					<CardShuffler />
@@ -55,8 +55,6 @@ export default function CenteredGrid() {
 				<Grid item sm={12}>
 					<FlashCards />
 				</Grid>
-
-			
 			</Grid>
 		</div>
 	);
