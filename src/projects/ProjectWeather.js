@@ -48,7 +48,7 @@ export default function CenteredGrid() {
 						rel='noreferrer'
 						href='https://childre-project-weather.herokuapp.com/'>
 						<Button variant='outlined' className={classes.button}>
-							See More
+							See Project
 						</Button>
 					</Link>
 				</Grid>

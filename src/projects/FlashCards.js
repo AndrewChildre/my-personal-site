@@ -49,7 +49,7 @@ export default function CenteredGrid() {
 						rel='noreferrer'
 						href='https://andrewchildre.github.io/Flash-Cards/'>
 						<Button variant='outlined' className={classes.button}>
-							See More
+							See Project
 						</Button>
 					</Link>
 				</Grid>
