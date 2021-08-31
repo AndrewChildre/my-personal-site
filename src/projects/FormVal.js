@@ -62,7 +62,7 @@ export default function CenteredGrid() {
 							style={{ marginBottom: 20 }}
 							variant='outlined'
 							color='disabled'>
-							See More
+							See Project
 						</Button>
 					</Link>
 				</Grid>
