@@ -38,14 +38,13 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12} sm={6}>
 					<h2 className={classes.headings}>Death Stalker</h2>
 					<p style={{ margin: 20 }}>
-						This was a challenging project for me, I had to learn kaboom.js, as
-						well as Replit to make sure I could complete it.These technologies
+						This hack-a-thon project was a big challenge for me, as I had not built a game before. I had to learn kaboom.js, as
+						well as Replit. These technologies
 						were not that difficult to learn, as I have been working extremely
 						hard on my javascript fundamentals. The most difficult part of this
-						project was how to use and edit sprites. Also learning how to
-						dissect a sprite-sheet was totally new to me. I used a web based
-						program called Piskel. It was a great program to accomplish what I
-						needed to do. Overall I learned a lot and am happy with the way my
+						project was how to use and edit sprites. I used a web based
+						program called Piskel to accomplish this.Also learning how to
+						dissect a sprite-sheet was totally new to me. Overall I learned a lot and am happy with the way my
 						project turned out. Not mobile friendly yet.
 					</p>
 
