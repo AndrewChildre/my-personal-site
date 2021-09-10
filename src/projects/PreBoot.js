@@ -56,7 +56,7 @@ export default function CenteredGrid() {
 
 '>
 						<Button variant='outlined' className={classes.button}>
-							See More
+							See Project
 						</Button>
 					</Link>
 				</Grid>
@@ -64,7 +64,7 @@ export default function CenteredGrid() {
 					<img
 						className={classes.border}
 						src={boot1}
-						alt='Weather pic'
+						alt='bootcamp'
 						height='436'
 						width='320'
 					/>

@@ -53,7 +53,7 @@ export default function CenteredGrid() {
 						rel='noreferrer'
 						href='https://card-shuffler.netlify.app'>
 						<Button style={{ margin: 20 }} variant='outlined' className={classes.button}>
-							See More
+							See Project
 						</Button>
 					</Link>
 				</Grid>

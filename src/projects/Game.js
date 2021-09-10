@@ -3,7 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
-import flash1 from './flash1.jpg';
+import landing from './landing.png'
+
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
@@ -13,14 +14,15 @@ const useStyles = makeStyles((theme) => ({
 
 	headings: {
 		fontFamily: 'Caveat',
-		fontSize: 50,
+		fontSize: 45,
 		color: '#1f333c',
+		marginLeft: 20,
 	},
 	border: {
 		border: '5px solid #5199e4',
 		borderRadius: 10,
 		marginTop: 20,
-		maginBottom: 20,
+		marginBottom: 20,
 	},
 	button: {
 		backgroundColor: '#02a5db',
@@ -34,21 +36,28 @@ export default function CenteredGrid() {
 		<div className={classes.root}>
 			<Grid justify='center' alignItems='center' container>
 				<Grid align='center' item xs={12} sm={6}>
-					<h2 align='center' className={classes.headings}>
-						Flash Cards
-					</h2>
+					<h2 className={classes.headings}>Death Stalker</h2>
 					<p style={{ margin: 20 }}>
-						My Flash Cards app is special to me, this was the first project that
-						I completed. It was very challenging at the time I built it,
-						although I learned so much in the process of making it. This one
-						is built on HTML, CSS, Javascript, and Boostrap. It is also deployed
-						on Heroku.
+						This was a challenging project for me, I had to learn kaboom.js, as
+						well as Replit to make sure I could complete it.These technologies
+						were not that difficult to learn, as I have been working extremely
+						hard on my javascript fundamentals. The most difficult part of this
+						project was how to use and edit sprites. Also learning how to
+						dissect a sprite-sheet was totally new to me. I used a web based
+						program called Piskel. It was a great program to accomplish what I
+						needed to do. Overall I learned a lot and am happy with the way my
+						project turned out. Not mobile friendly yet.
 					</p>
+
 					<Link
 						target='_blank'
 						rel='noreferrer'
-						href='https://andrewchildre.github.io/Flash-Cards/'>
-						<Button variant='outlined' className={classes.button}>
+						href='https://death-stalker.netlify.app/'>
+						<Button
+							className={classes.button}
+							style={{ marginBottom: 20 }}
+							variant='outlined'
+							color='disabled'>
 							See Project
 						</Button>
 					</Link>
@@ -56,9 +65,9 @@ export default function CenteredGrid() {
 				<Grid align='center' item xs={12} sm={6}>
 					<img
 						className={classes.border}
-						src={flash1}
-						alt='Weather pic'
-						height='550'
+						src={landing}
+						alt='death angel'
+						height='320'
 						width='330'
 					/>
 				</Grid>

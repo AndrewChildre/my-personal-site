@@ -9,6 +9,7 @@ import PreBoot from '../projects/PreBoot';
 import CardShuffler from '../projects/CardShuffler';
 import FlashCards from '../projects/FlashCards';
 import FormVal from '../projects/FormVal'
+import Game from '../projects/Game'
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
@@ -36,6 +37,9 @@ export default function CenteredGrid() {
 
 				<Grid className={classes.heading} align='center' item xs={12}>
 					<h2>Projects</h2>
+				</Grid>
+				<Grid>
+					<Game />
 				</Grid>
 				<Grid>
 					<FormVal />
