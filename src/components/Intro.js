@@ -75,7 +75,7 @@ export default function CenteredGrid() {
 					<img
 						className={classes.border}
 						src={me1}
-						alt='me'
+						alt='Andrew C'
 						height='580'
 						width='350'
 					/>
