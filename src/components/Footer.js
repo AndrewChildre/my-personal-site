@@ -21,7 +21,7 @@ export default function CenteredGrid() {
 			<Grid align='center' container>
 				<Grid item xs={12}>
 					<h3 className={classes.stlying}>
-						Thank you for visiting
+						Thank you for visiting!
 						<br />
 						Andrew C
 					</h3>
